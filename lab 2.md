@@ -20,7 +20,12 @@ The browser interprets the input as HTML instead of plaitext where javascript au
 An attacker can execute arbitrary JavaScript in a victim’s browser, potentially leading to:
 - Session hijacking
 - Phishing attacks
+
+
 ## Proof of Concept
+
+![WhatsApp Image 2026-03-22 at 09 49 37](https://github.com/user-attachments/assets/0ffe9157-3c63-4e9b-a634-6ff98fc76810)
+
 
 ## Key Learning
 - Identified reflection point
