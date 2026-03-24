@@ -21,11 +21,11 @@ An attacker can execute arbitrary JavaScript in a victim’s browser, potentiall
 - Phishing attacks
 
 ## Proof of Concept
+![WhatsApp Image 2026-03-24 at 12 24 15](https://github.com/user-attachments/assets/5b311298-ee00-4f52-a65b-48e0e8529587)
 
-blob:https://web.whatsapp.com/11d4c775-9583-40d1-9408-e7df51af0a99
-blob:https://web.whatsapp.com/4881ce61-7d50-40e0-8410-877419b6c0fd
-blob:https://web.whatsapp.com/5206ea11-32df-4df0-85bd-513af51e64d0
-blob:https://web.whatsapp.com/95927989-a5eb-4822-bc83-9a0a538e23b6
+![WhatsApp Image 2026-03-24 at 12 24 14(1)](https://github.com/user-attachments/assets/9c766a20-2d43-4896-a373-f430e185a0c8)
+![WhatsApp Image 2026-03-24 at 12 24 14](https://github.com/user-attachments/assets/b5975fbc-e112-473a-ac83-ab5551aabf3d)
+
 ## Key Learning
 - Identified source
 - Identified sink
