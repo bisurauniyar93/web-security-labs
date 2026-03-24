@@ -22,8 +22,7 @@ An attacker can execute arbitrary JavaScript in a victim’s browser, potentiall
 
 ## Proof of Concept
 ![WhatsApp Image 2026-03-24 at 12 24 14](https://github.com/user-attachments/assets/b5975fbc-e112-473a-ac83-ab5551aabf3d)
-
-![WhatsApp Image 2026-03-24 at 12 24 15](https://github.com/user-attachments/assets/5b311298-ee00-4f52-a65b-48e0e8529587)
+![WhatsApp Image 2026-03-24 at 12 24 14(2)](https://github.com/user-attachments/assets/7c2ec6d6-0586-47f8-bb74-d5d2b2f73c6b)
 
 ![WhatsApp Image 2026-03-24 at 12 24 14(1)](https://github.com/user-attachments/assets/9c766a20-2d43-4896-a373-f430e185a0c8)
 
