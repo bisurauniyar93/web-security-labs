@@ -25,8 +25,8 @@ This payload:
 * Uses the `onerror` event to execute JavaScript
 
 As a result, the browser executes the payload successfully.
-
 This confirms a **DOM-based XSS vulnerability**, caused by unsafe use of `document.write` with untrusted input and lack of proper output encoding.
+
 
 ## Payload Used
 &storeId=123"></select><img src=1 onerror=alert(1)>
