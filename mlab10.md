@@ -27,12 +27,12 @@ This payload:
 As a result, the browser executes the payload successfully.
 This confirms a **DOM-based XSS vulnerability**, caused by unsafe use of `document.write` with untrusted input and lack of proper output encoding.
 
+## Why It Works
+The application uses document.write to insert user-controlled input directly into the DOM without sanitization. Since the input is placed inside a <select> element, it is treated as HTML. By closing the existing <option> and <select> tags, the attacker can escape the restricted context and inject a new element with a JavaScript event handler, which the browser executes.
 
 ## Payload Used
 &storeId=123"></select><img src=1 onerror=alert(1)>
 
-## Why It Works
-The application uses document.write to insert user-controlled input directly into the DOM without sanitization. Since the input is placed inside a <select> element, it is treated as HTML. By closing the existing <option> and <select> tags, the attacker can escape the restricted context and inject a new element with a JavaScript event handler, which the browser executes.
 
 ## Impact
 An attacker can execute arbitrary JavaScript in the victim’s browser. This can lead to session hijacking, data theft, unauthorized actions on behalf of the user, or redirection to malicious websites.
