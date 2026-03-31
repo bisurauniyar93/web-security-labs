@@ -30,7 +30,7 @@ This confirms a **DOM-based XSS vulnerability**, caused by unsafe use of `docume
 ## Why It Works
 The application uses document.write to insert user-controlled input directly into the DOM without sanitization. Since the input is placed inside a <select> element, it is treated as HTML. By closing the existing <option> and <select> tags, the attacker can escape the restricted context and inject a new element with a JavaScript event handler, which the browser executes.
 
-## Payload Used
+##Payload Used
 &storeId=123"></select><img src=1 onerror=alert(1)>
 
 
